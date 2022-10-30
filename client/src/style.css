@@ -1,0 +1,70 @@
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/materialicons/v135/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2)
+		format('woff2');
+}
+
+:root {
+	font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	background-color: var(--background);
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+
+	/* --persian-blue: #192bc2;
+  --dark-cyan: #13908c;
+  --eerie-black: #151515;
+  --aero-blue: #cbf7ed;
+  --flame: #e4572e; */
+
+	--primary: #4354e0;
+	--secondary: #ffcd1f;
+	--background: #151515;
+	--text: #fff;
+	--darker-text: #555;
+}
+
+body {
+	margin: 0;
+	min-height: 100vh;
+}
+
+.icon {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-moz-font-feature-settings: 'liga';
+	-moz-osx-font-smoothing: grayscale;
+	color: inherit;
+	user-select: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	border: 0;
+	font-size: 16px;
+	padding: 0.3em 0.6em;
+	border-radius: 0.2em;
+	cursor: pointer;
+}
